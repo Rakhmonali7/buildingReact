@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Rubik';
+  font-family: "Rubik";
 }
 /*
 
@@ -11,35 +11,33 @@ Navigatrion bar
 
 
  */
-.navigationPanel{
+.navigationPanel {
   display: flex;
   padding: 3.5rem;
   justify-content: space-between;
   padding: 3.5rem 8.44rem;
 }
-.ul{
+.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
   gap: 40px;
 }
-.logo{
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
-.btnLogo{
+.btnLogo {
   width: 96px;
   height: 40px;
   border: none;
-  background-color: #19BCE4;
-  color: #FFFFFF;
-  
+  background-color: #19bce4;
+  color: #ffffff;
 }
-.navigationPanel button{
+.navigationPanel button {
   border-radius: 10px;
 }
 
@@ -49,7 +47,7 @@ main
 
 */
 
-.navMain{
+.navMain {
   width: 90rem;
   height: 43.75rem;
   flex-shrink: 0;
